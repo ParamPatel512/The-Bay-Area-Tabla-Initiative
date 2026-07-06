@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Classes</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+:root {
+    --accent: #0f766e;
+}
+
+/* NAV */
+.top-nav {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.top-nav a {
+    display: inline-block;
+    padding: 8px 14px;
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--accent);
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+
+.top-nav a:hover {
+    background: var(--accent);
+    color: white;
+}
+
+.top-nav a.active {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+}
+
+/* BUTTON (bubble style) */
+.button {
+    display: inline-block;
+    padding: 10px 14px;
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--accent);
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.button:hover {
+    background: var(--accent);
+    color: white;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="container">
+
+<h2 class="logo">The Bay Area Tabla Initiative</h2>
+
+<nav class="top-nav">
+
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="classes.html" class="active">Classes</a>
+<a href="video-course.html">Online Course</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+
+</div>
+
+</header>
+
+<section class="page container">
+
+<h1>Classes</h1>
+
+<div class="card">
+
+<h2>Kid’s Tabla Introduction Workshop</h2>
+
+<p>Saturday • 10:00 AM – 11:00 AM</p>
+
+<p>Sanatan Mandir, San Bruno</p>
+
+<p>Free • 4-week introductory course</p>
+
+<a href="class-details.html" class="button">
+Learn More & Register
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 The Bay Area Tabla Initiative</p>
+
+</footer>
+
+</body>
+
+</html>
